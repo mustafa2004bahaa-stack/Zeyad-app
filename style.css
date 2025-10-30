@@ -1,0 +1,123 @@
+/* الصفحة العامة */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* تصميم صفحة التسجيل */
+.container {
+  width: 30%;
+  margin: 5% auto;
+  padding: 35px;
+}
+
+form {
+  background-color: white;
+  border: solid 9px yellow;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.input-control {
+  margin: 10px 0;
+}
+
+.input-control input {
+  width: 95%;
+  border: solid 3px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.input-control.error input {
+  border-color: red;
+}
+
+.input-control.success input {
+  border-color: green;
+}
+
+.input-control .error {
+  color: red;
+  font-size: 14px;
+}
+
+.btn {
+  border: solid 4px yellow;
+  width: 45%;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px 5px;
+  font-size: 18px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* صفحة الـ Home */
+.home-body {
+  background-color: #f0f0f0;
+  transition: background-color 0.5s;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 5%;
+  padding: 30px;
+  border-radius: 20px;
+  background: white;
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid blueviolet;
+  margin-bottom: 10px;
+}
+
+.home-container h1 {
+  color: blueviolet;
+  margin-bottom: 10px;
+}
+
+#datetime {
+  color: gray;
+  font-size: 16px;
+}
+
+#browserInfo {
+  color: #333;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.user-info {
+  margin-top: 15px;
+  color: #333;
+}
+
+.user-info h3 {
+  color: blueviolet;
+  margin-bottom: 5px;
+}
+
+.btn-group {
+  margin-top: 15px;
+}
+
+.color-btn.blue {
+  background-color: #007bff;
+}
+
+.logout-btn {
+  background-color: #ff9800;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
